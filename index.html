@@ -18,16 +18,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://github.com/">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link"  href="#">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="https://github.com/">Shoes</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://github.com/">Backpack</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
               
               
@@ -148,9 +148,9 @@
 
     
 
-    <section class="container mt-5">
-      <h2 class="m-2">Shoes</h2>
-      <div class="card-group mt-4 text-center ">
+    <section class="container my-5 id="shoes">
+      <h2 class="m-2">Shoes</h2> 
+      <div class="card-group mt-4 text-center">
         <div class="card border border-0 rounded shadow-lg m-2 ">
           <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -191,7 +191,7 @@
 
 
 
-    <section class="container mt-5">
+    <section class="container mt-5 id="backpack">
       <h2 class="m-2">Backpack</h2>
       <div class="card-group mt-4 text-center ">
         <div class="card border border-0 rounded shadow-lg m-2 ">
@@ -232,7 +232,22 @@
 
     </section>
 
-
+<footer class="container">
+  <section style="height: 300px;" class=" rounded mt-5 d-flex justify-content-center align-items-center bg-info-subtle">
+    <div>
+      <h2>LET'S STAY IN TOUCH</h2>
+    <p class="mb-1">Get updates on sales specials and more</p>
+    <form>
+      <div class="mb-3 ">
+        <label for="exampleInputEmail1" class="form-label">Email address : </label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       
+      </div>
+      <button type="submit" class="btn btn-info">Send</button>
+    </form>
+    </div>
+  </section>
+</footer>
 
 </main>
 
